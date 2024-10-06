@@ -1,0 +1,32 @@
+{
+  "name": "epzi",
+  "version": "1.0.0",
+  "description": "Epzige Cudu Nona WhatsApp bot created Epzi With using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name epzi",
+    "stop": "pm2 stop epzi",
+    "restart": "pm2 restart epzi"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "git+https://github.com/ayooh-us/Bailey-s.git",
+    "api-dylux": "1.8.5",
+    "axios": "^0.21.4",
+    "express": "^2.5.11",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "google-tts-api": "^2.0.2",
+    "megajs": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.4",
+    "uuid": "^10.0.0",
+    "vm": "^0.1.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "2.11.1"
+  }
+}
